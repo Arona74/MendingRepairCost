@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "mendingrepaircost",
+  "version": "1.0.0",
+  "name": "MendingRepairCost",
+  "description": "Removes XP orb repair from Mending and resets repair cost instead",
+  "authors": [
+    "arona74"
+  ],
+  "contact": {
+    "homepage": "https://github.com/arona74/mendingrepaircost",
+    "sources": "https://github.com/arona74/mendingrepaircost"
+  },
+  "license": "MIT",
+  "icon": "assets/mendingrepaircost/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.arona74.mendingrepaircost.MendingRepairCostMod"
+    ]
+  },
+  "mixins": [
+    "mendingrepaircost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
