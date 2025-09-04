@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "mendingrepaircost",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "MendingRepairCost",
   "description": "Removes XP orb repair from Mending and resets repair cost instead",
   "authors": [
